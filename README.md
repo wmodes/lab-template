@@ -1,6 +1,7 @@
 # lab-template
 File tempate for basic HTML, CSS, and JavaScript classes
 
+```
 .
 ├── css
 │   └── site.css
@@ -58,3 +59,4 @@ File tempate for basic HTML, CSS, and JavaScript classes
     ├── index.html
     └── js
         └── lab.js
+```

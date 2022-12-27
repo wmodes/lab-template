@@ -1,9 +1,10 @@
 #content {
-  margin: 10px;
-  border: solid 1px #808080;
+  margin: 10px;080;
+  padding: 10px;
+  border: solid 1px #808
 }
 
 .minor-section {
-  margin: 10px;
+  padding: 10px;
   border: solid 1px #A0A0A0;
 }

@@ -1,10 +1,31 @@
+/* we can use a single css file to style all the files in our wwebsite */
+
+/* you can pick your own background colors, text colors, and fonts */
+
+body {
+  background-color: #50808E;
+}
+
+h1,h2,h3 {
+  font-family: sans-serif;
+}
+
+h1 {
+  letter-spacing: 5px;
+  word-spacing: 5px;
+  font-size: 200%;
+}
+
 #content {
-  margin: 10px;080;
+  margin: 10px;
   padding: 10px;
-  border: solid 1px #808
+  border: solid 1px #888;
+  background-color: #A3C9A8;
 }
 
 .minor-section {
   padding: 10px;
-  border: solid 1px #A0A0A0;
+  margin-bottom: 10px;
+  border: solid 1px #888;
+  background-color: #DDD8C4;
 }

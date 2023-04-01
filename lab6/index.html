@@ -5,15 +5,19 @@
 	<title>Lab X - Subject/Topic</title>
 
 	<!-- Use UTF character set, a good idea with any webpage -->
-  <meta charset="UTF-8" />
+  	<meta charset="UTF-8" />
 	<!-- Set viewport so page remains consistently scaled w narrow devices -->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	
 	<!-- Include a sitewide CSS file for consistent styling across the site -->
 	<link rel="stylesheet" type="text/css" href="../css/site.css">
 	<!-- Lab-specifc CSS file for any special styling of this particular page -->
 	<link rel="stylesheet" type="text/css" href="css/lab.css">
+	
+	<!-- load jQuery library to make javascript easier (must be above our lab js)-->
+	<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 	<!-- Link to javascript file - DEFER waits until all elements are rendered -->
-	<script type="text/javascript" src="./js/lab.js"></script>
+	<script type="text/javascript" src="./js/lab.js" DEFER></script>
 </head>
 <body>
 	<!-- Style this page by changing the CSS in ../css/site.css or css/lab.css -->
